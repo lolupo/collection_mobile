@@ -1,0 +1,110 @@
+/*-----------------------------------------------
+------------------ COMMUN ---------------------
+-----------------------------------------------*/
+
+body {
+	overflow: hidden;
+	height: auto;
+}
+
+.color-blue {
+	color:#00BFFF;
+}
+
+// mobileHeader
+.mobile-header {
+	height:auto;
+	max-height: 100%;
+}
+
+.mobile-header h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.mobile-header small {
+	font-size: 0.5em;
+	padding-left: 3%;
+
+}
+
+/*formInner addon*/
+.left-inner-addon {
+    position: relative;
+}
+
+.left-inner-addon input {
+    padding-left: 8%;    
+}
+
+.left-inner-addon i {
+    position: absolute;
+    padding: 2.5% 2.5%;
+    pointer-events: none;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+
+.right-inner-addon input {
+    padding-right: 8%;    
+}
+
+.right-inner-addon i {
+    position: absolute;
+    right: 0%;
+    padding: 2.5% 2.5%;
+    pointer-events: none;
+}
+
+/*-------------------------------------------------
+------------------ HOMME-TUTO ---------------------
+---------------------------------------------------*/
+
+#owl-home-tuto {
+    margin: 2% 0%;
+}
+
+#owl-home-tuto .item {
+    background: #3fbf79;
+    padding: 5% 0%;
+    margin: 0.5em;
+    color: #FFF;
+    -webkit-border-radius: 2.5%;
+    -moz-border-radius: 2.5%;
+    border-radius: 2.5%;
+    text-align: center;
+    height: auto;
+}
+
+#owl-home-tuto i {
+    font-size: 11em;
+}
+
+
+@media all and (min-height: 481px) {
+    #owl-home-tuto i {
+        font-size: 18em;
+    }
+}
+
+@media all and (min-height: 569px) {
+    #owl-home-tuto i {
+        font-size: 20em;
+    }
+}
+
+#home-tuto-menu {
+    margin: 5% 0%;
+
+}
+#home-tuto-menu a {
+    font-weight: bold;
+    
+}
+
+
+
+
+

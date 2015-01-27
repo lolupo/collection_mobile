@@ -1,0 +1,60 @@
+
+    <div class="row">
+    <div class="mobile-header">
+        <h1 class="col-xs-12">Collection
+        <small>a work in progress</small></h1>
+    </div>
+    </div>
+
+<div class="row">
+    <div class="col-xs-12" >
+        <div class="left-inner-addon">
+            <i class="glyphicon glyphicon-search color-blue"></i>
+            <input type="text"
+                   class="form-control" 
+                   placeholder="Chercher un objet" />
+        </div>
+    </div>
+</div>
+
+     
+<div class="row">
+    <div class=" col-xs-12">
+        <wrap-owlcarousel id="owl-home-tuto" class="owl-carousel"   
+                data-options="{autoPlay: 2000, stopOnHover: true,  
+                    slideSpeed : 300, paginationSpeed : 400, singleItem : true, itemsMobile : [479,3], 
+                    lazyLoad : true, itemsScaleUp : false, responsive: true}"> 
+                <div class="item">  
+                    <h1>Collect</h1>
+                    <i class="fa fa-book"></i>
+                </div>
+                <div class="item">  
+                    <h1>Add</h1>
+                    <i class="fa fa-plus"></i>
+                </div>  
+                <div class="item">  
+                    <h1>Share</h1>
+                    <i class="fa fa-share"></i> 
+                </div>
+        </wrap-owlcarousel>  
+    </div>
+</div>
+
+<div ng-controller="ModalSignInCtrl">
+    <div class="row">
+        <div id="home-tuto-menu">
+            <div class="col-xs-4 col-xs-offset-1">    
+                <button type="button" ng-click="open()" class="btn btn-sm btn-info">
+                   <i class="fa fa-check"></i>
+                   Connection
+                </a>
+            </div>
+            <div class="col-xs-4 col-xs-offset-1">
+                <a href="#/inscription" type="button" class="btn btn-sm btn-default">
+                    <i class="fa fa-user-plus"></i>
+                    Inscription  
+                </a>
+            </div>   
+        </div>
+    </div>
+</div>
